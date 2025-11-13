@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import ProductGrid from "@/components/ProductGrid";
 import Collections from "@/components/Collections";
 import Personalisation from "@/components/Personalisation";
+import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
         <ProductGrid />
         <Collections />
         <Personalisation />
+        <Team />
       </main>
       <Footer />
     </div>
