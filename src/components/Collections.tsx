@@ -1,12 +1,12 @@
-import notebookImg from "@/assets/product-notebook.jpg";
+import navyNotebookImg from "@/assets/product-navy-notebook.jpeg";
 import plannerImg from "@/assets/product-planner.jpg";
-import giftsetImg from "@/assets/product-giftset.jpg";
+import penSetImg from "@/assets/product-pen-set.jpeg";
 import deskpadImg from "@/assets/product-deskpad.jpg";
 
 const collections = [
   {
     name: "Founder's Collection",
-    image: notebookImg,
+    image: navyNotebookImg,
     description: "Timeless essentials for daily clarity",
   },
   {
@@ -20,9 +20,9 @@ const collections = [
     description: "Refined desk organization",
   },
   {
-    name: "Luxe Gifting Box",
-    image: giftsetImg,
-    description: "Thoughtfully curated gifts",
+    name: "Executive Pen Collection",
+    image: penSetImg,
+    description: "Signature writing instruments",
   },
 ];
 

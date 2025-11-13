@@ -1,16 +1,26 @@
 import ProductCard from "./ProductCard";
-import notebookImg from "@/assets/product-notebook.jpg";
+import navyNotebookImg from "@/assets/product-navy-notebook.jpeg";
+import penSetImg from "@/assets/product-pen-set.jpeg";
+import crystalDisplayImg from "@/assets/product-crystal-display.jpeg";
 import plannerImg from "@/assets/product-planner.jpg";
 import deskpadImg from "@/assets/product-deskpad.jpg";
 import monogramImg from "@/assets/product-monogram.jpg";
-import giftsetImg from "@/assets/product-giftset.jpg";
-import folioImg from "@/assets/product-folio.jpg";
 
 const products = [
   {
-    image: notebookImg,
-    name: "Signature Notebook",
-    price: "£95",
+    image: navyNotebookImg,
+    name: "Navy Spiral Journal",
+    price: "£145",
+  },
+  {
+    image: penSetImg,
+    name: "Gold Pen Collection",
+    price: "£295",
+  },
+  {
+    image: crystalDisplayImg,
+    name: "Crystal Display Piece",
+    price: "£175",
   },
   {
     image: plannerImg,
@@ -26,16 +36,6 @@ const products = [
     image: monogramImg,
     name: "Monogram Journal",
     price: "£145",
-  },
-  {
-    image: giftsetImg,
-    name: "Luxe Gifting Set",
-    price: "£250",
-  },
-  {
-    image: folioImg,
-    name: "Leather Folio",
-    price: "£195",
   },
 ];
 
