@@ -10,32 +10,32 @@ const products = [
   {
     image: navyNotebookImg,
     name: "Navy Spiral Journal",
-    price: "£145",
+    price: "₹14,999",
   },
   {
     image: penSetImg,
     name: "Gold Pen Collection",
-    price: "£295",
+    price: "₹30,999",
   },
   {
     image: crystalDisplayImg,
     name: "Crystal Display Piece",
-    price: "£175",
+    price: "₹18,499",
   },
   {
     image: plannerImg,
     name: "Weekly Planner",
-    price: "£120",
+    price: "₹12,599",
   },
   {
     image: deskpadImg,
     name: "Leather Desk Pad",
-    price: "£185",
+    price: "₹19,499",
   },
   {
     image: monogramImg,
     name: "Monogram Journal",
-    price: "£145",
+    price: "₹14,999",
   },
 ];
 
