@@ -1,12 +1,27 @@
 import ProductCard from "./ProductCard";
+import bookmarkImg from "@/assets/product-bookmark.jpg";
+import deskpadImg from "@/assets/product-deskpad-new.jpg";
+import calendarImg from "@/assets/product-calendar.jpg";
 import navyNotebookImg from "@/assets/product-navy-notebook.jpeg";
 import penSetImg from "@/assets/product-pen-set.jpeg";
-import crystalDisplayImg from "@/assets/product-crystal-display.jpeg";
-import plannerImg from "@/assets/product-planner.jpg";
-import deskpadImg from "@/assets/product-deskpad.jpg";
 import monogramImg from "@/assets/product-monogram.jpg";
 
 const products = [
+  {
+    image: bookmarkImg,
+    name: "Leather Bookmark",
+    price: "₹2,999",
+  },
+  {
+    image: deskpadImg,
+    name: "Executive Desk Pad",
+    price: "₹19,499",
+  },
+  {
+    image: calendarImg,
+    name: "Desk Calendar 2024",
+    price: "₹8,999",
+  },
   {
     image: navyNotebookImg,
     name: "Navy Spiral Journal",
@@ -16,21 +31,6 @@ const products = [
     image: penSetImg,
     name: "Gold Pen Collection",
     price: "₹30,999",
-  },
-  {
-    image: crystalDisplayImg,
-    name: "Crystal Display Piece",
-    price: "₹18,499",
-  },
-  {
-    image: plannerImg,
-    name: "Weekly Planner",
-    price: "₹12,599",
-  },
-  {
-    image: deskpadImg,
-    name: "Leather Desk Pad",
-    price: "₹19,499",
   },
   {
     image: monogramImg,
