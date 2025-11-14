@@ -1,12 +1,12 @@
-import navyNotebookImg from "@/assets/product-navy-notebook.jpeg";
+import calendarImg from "@/assets/product-calendar.jpg";
 import plannerImg from "@/assets/product-planner.jpg";
 import penSetImg from "@/assets/product-pen-set.jpeg";
-import deskpadImg from "@/assets/product-deskpad.jpg";
+import deskpadNewImg from "@/assets/product-deskpad-new.jpg";
 
 const collections = [
   {
-    name: "Founder's Collection",
-    image: navyNotebookImg,
+    name: "Desk Calendar 2024",
+    image: calendarImg,
     description: "Timeless essentials for daily clarity",
   },
   {
@@ -15,8 +15,8 @@ const collections = [
     description: "Tools for the creative mind",
   },
   {
-    name: "Minimal Studio Set",
-    image: deskpadImg,
+    name: "Executive Desk Pad",
+    image: deskpadNewImg,
     description: "Refined desk organization",
   },
   {

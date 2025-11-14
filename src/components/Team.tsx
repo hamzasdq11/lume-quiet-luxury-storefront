@@ -1,4 +1,4 @@
-import teamPhoto from "@/assets/team-photo.jpg";
+import teamPhoto from "@/assets/team-photo-new.jpg";
 
 const Team = () => {
   return (
