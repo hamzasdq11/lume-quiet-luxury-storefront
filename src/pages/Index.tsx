@@ -5,6 +5,7 @@ import Collections from "@/components/Collections";
 import Personalisation from "@/components/Personalisation";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
+import PitchDeckSlides from "@/components/PitchDeckSlides";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         <Collections />
         <Personalisation />
         <Team />
+        <PitchDeckSlides />
       </main>
       <Footer />
     </div>
