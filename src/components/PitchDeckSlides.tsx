@@ -239,7 +239,7 @@ const PitchDeckSlides = () => {
       <section className="min-h-screen bg-cream-dark py-24 px-6 md:px-12 lg:px-24 flex items-center">
         <div className="max-w-6xl mx-auto w-full">
           <div className="mb-16">
-            <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 06</p>
+            <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 04</p>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
               What Makes LUME Truly Distinct
             </h2>
@@ -322,10 +322,10 @@ const PitchDeckSlides = () => {
       </section>
 
       {/* SLIDE 5 — Branding & Marketing Execution */}
-      <section className="min-h-screen bg-cream-dark py-24 px-6 md:px-12 lg:px-24 flex items-center">
+      <section className="min-h-screen bg-background py-24 px-6 md:px-12 lg:px-24 flex items-center">
         <div className="max-w-6xl mx-auto w-full">
           <div className="mb-16">
-            <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 04</p>
+            <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 05</p>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
               Branding & Marketing Execution
             </h2>
@@ -391,11 +391,11 @@ const PitchDeckSlides = () => {
         </div>
       </section>
 
-      {/* SLIDE 5 — Go-to-Market Strategy */}
-      <section className="min-h-screen bg-background py-24 px-6 md:px-12 lg:px-24 flex items-center">
+      {/* SLIDE 6 — Go-to-Market Strategy */}
+      <section className="min-h-screen bg-cream-dark py-24 px-6 md:px-12 lg:px-24 flex items-center">
         <div className="max-w-6xl mx-auto w-full">
           <div className="mb-16">
-            <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 05</p>
+            <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 06</p>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
               Go-To-Market Strategy
             </h2>

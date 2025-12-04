@@ -16,8 +16,8 @@ const Index = () => {
         <ProductGrid />
         <Collections />
         <Personalisation />
-        <Team />
         <PitchDeckSlides />
+        <Team />
       </main>
       <Footer />
     </div>
