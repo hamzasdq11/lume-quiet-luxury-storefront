@@ -235,7 +235,93 @@ const PitchDeckSlides = () => {
         </div>
       </section>
 
-      {/* SLIDE 4 — Branding & Marketing Execution */}
+      {/* SLIDE 4 — What Makes LUME Truly Distinct */}
+      <section className="min-h-screen bg-cream-dark py-24 px-6 md:px-12 lg:px-24 flex items-center">
+        <div className="max-w-6xl mx-auto w-full">
+          <div className="mb-16">
+            <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 06</p>
+            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
+              What Makes LUME Truly Distinct
+            </h2>
+            <p className="text-muted-foreground font-sans text-lg md:text-xl max-w-2xl">
+              How We Differ From The Industry
+            </p>
+            <div className="w-24 h-px bg-gold mt-8" />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+            {/* Column Headers */}
+            <div className="bg-background border border-gold/30 p-6 md:p-8 text-center">
+              <h3 className="font-serif text-xl md:text-2xl text-muted-foreground">Industry Norms</h3>
+            </div>
+            <div className="bg-background border border-gold/30 p-6 md:p-8 text-center">
+              <h3 className="font-serif text-xl md:text-2xl text-gold">LUME Experience</h3>
+            </div>
+
+            {/* Row 1 */}
+            <div className="bg-background/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
+              <p className="text-muted-foreground font-sans leading-relaxed">
+                Others sell year-round stock.
+              </p>
+            </div>
+            <div className="bg-background p-6 md:p-8 border-l-2 border-gold">
+              <p className="text-foreground font-sans leading-relaxed">
+                We launch <span className="text-gold font-medium">limited seasonal & event-driven drops</span> that create urgency, collectibility, and excitement.
+              </p>
+            </div>
+
+            {/* Row 2 */}
+            <div className="bg-cream-dark/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
+              <p className="text-muted-foreground font-sans leading-relaxed">
+                Most brands customise only one product.
+              </p>
+            </div>
+            <div className="bg-background/80 p-6 md:p-8 border-l-2 border-gold">
+              <p className="text-foreground font-sans leading-relaxed">
+                We <span className="text-gold font-medium">personalise across categories</span> — bookmarks, pens, paperweights, gifting sets, packaging.
+              </p>
+            </div>
+
+            {/* Row 3 */}
+            <div className="bg-background/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
+              <p className="text-muted-foreground font-sans leading-relaxed">
+                Typical stationery feels mundane.
+              </p>
+            </div>
+            <div className="bg-background p-6 md:p-8 border-l-2 border-gold">
+              <p className="text-foreground font-sans leading-relaxed">
+                <span className="text-gold font-medium">Signature unboxing</span> with magnetic boxes, wax seals, ribbons, and a branded scent that elevates every item.
+              </p>
+            </div>
+
+            {/* Row 4 */}
+            <div className="bg-cream-dark/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
+              <p className="text-muted-foreground font-sans leading-relaxed">
+                Standard gift-wrapping.
+              </p>
+            </div>
+            <div className="bg-background/80 p-6 md:p-8 border-l-2 border-gold">
+              <p className="text-foreground font-sans leading-relaxed">
+                <span className="text-gold font-medium">End-to-end luxury gifting:</span> curated bundles, cards, ribbons, seasonal recommendations.
+              </p>
+            </div>
+
+            {/* Row 5 */}
+            <div className="bg-background/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
+              <p className="text-muted-foreground font-sans leading-relaxed">
+                Basic designs.
+              </p>
+            </div>
+            <div className="bg-background p-6 md:p-8 border-l-2 border-gold">
+              <p className="text-foreground font-sans leading-relaxed">
+                <span className="text-gold font-medium">Minimalist, premium, city-inspired styling</span> for fashion followers and gadget-lovers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SLIDE 5 — Branding & Marketing Execution */}
       <section className="min-h-screen bg-cream-dark py-24 px-6 md:px-12 lg:px-24 flex items-center">
         <div className="max-w-6xl mx-auto w-full">
           <div className="mb-16">
