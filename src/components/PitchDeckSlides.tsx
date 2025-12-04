@@ -1,4 +1,17 @@
-import { Users, Target, Lightbulb, Layers, Star, Award, Sparkles, Rocket, TrendingUp, Globe, Gift, Building2 } from "lucide-react";
+import {
+  Users,
+  Target,
+  Lightbulb,
+  Layers,
+  Star,
+  Award,
+  Sparkles,
+  Rocket,
+  TrendingUp,
+  Globe,
+  Gift,
+  Building2,
+} from "lucide-react";
 
 const PitchDeckSlides = () => {
   return (
@@ -27,7 +40,8 @@ const PitchDeckSlides = () => {
                   <div>
                     <h3 className="font-serif text-xl text-foreground mb-2">Target Persona</h3>
                     <p className="text-muted-foreground font-sans leading-relaxed">
-                      Urban Trendsetters seeking quiet luxury desk essentials that reflect sophistication and intentionality.
+                      Urban Trendsetters seeking quiet luxury desk essentials that reflect sophistication and
+                      intentionality.
                     </p>
                   </div>
                 </div>
@@ -71,7 +85,8 @@ const PitchDeckSlides = () => {
                   <div>
                     <h3 className="font-serif text-xl text-foreground mb-2">Product Idea</h3>
                     <p className="text-muted-foreground font-sans leading-relaxed">
-                      A luxury personalised notebook and desk collection designed for clarity, minimalism, and modern workspaces.
+                      A luxury personalised notebook and desk collection designed for clarity, minimalism, and modern
+                      workspaces.
                     </p>
                   </div>
                 </div>
@@ -211,10 +226,10 @@ const PitchDeckSlides = () => {
             {/* Differentiation */}
             <div className="grid md:grid-cols-4 gap-6">
               {[
-                { label: "Aesthetic", value: "High-end minimal design" },
-                { label: "Identity", value: "Monogram-first approach" },
-                { label: "Materials", value: "Premium quality" },
-                { label: "Pricing", value: "Accessible luxury" },
+                { label: "Aesthetic", value: "A symbol of identity and taste" },
+                { label: "Identity", value: "Elevated luxury experience" },
+                { label: "Materials", value: "Personalisation without limits" },
+                { label: "Pricing", value: "Perfect for gifting & occasions" },
               ].map((item, index) => (
                 <div key={index} className="text-center p-6 border border-gold/20">
                   <p className="text-gold uppercase tracking-[0.2em] text-xs font-sans mb-2">{item.label}</p>
@@ -227,8 +242,8 @@ const PitchDeckSlides = () => {
             <div className="bg-cream-dark p-10 md:p-16">
               <p className="text-gold uppercase tracking-[0.2em] text-xs font-sans mb-6">Positioning Statement</p>
               <p className="font-serif text-xl md:text-2xl text-foreground leading-relaxed">
-                For urban creators seeking refined tools, <span className="text-gold">LUME</span> delivers premium personalised 
-                stationery that elevates everyday work into a crafted experience.
+                For urban creators seeking refined tools, <span className="text-gold">LUME</span> delivers premium
+                personalised stationery that elevates everyday work into a crafted experience.
               </p>
             </div>
           </div>
@@ -260,61 +275,56 @@ const PitchDeckSlides = () => {
 
             {/* Row 1 */}
             <div className="bg-background/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
-              <p className="text-muted-foreground font-sans leading-relaxed">
-                Others sell year-round stock.
-              </p>
+              <p className="text-muted-foreground font-sans leading-relaxed">Others sell year-round stock.</p>
             </div>
             <div className="bg-background p-6 md:p-8 border-l-2 border-gold">
               <p className="text-foreground font-sans leading-relaxed">
-                We launch <span className="text-gold font-medium">limited seasonal & event-driven drops</span> that create urgency, collectibility, and excitement.
+                We launch <span className="text-gold font-medium">limited seasonal & event-driven drops</span> that
+                create urgency, collectibility, and excitement.
               </p>
             </div>
 
             {/* Row 2 */}
             <div className="bg-cream-dark/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
-              <p className="text-muted-foreground font-sans leading-relaxed">
-                Most brands customise only one product.
-              </p>
+              <p className="text-muted-foreground font-sans leading-relaxed">Most brands customise only one product.</p>
             </div>
             <div className="bg-background/80 p-6 md:p-8 border-l-2 border-gold">
               <p className="text-foreground font-sans leading-relaxed">
-                We <span className="text-gold font-medium">personalise across categories</span> — bookmarks, pens, paperweights, gifting sets, packaging.
+                We <span className="text-gold font-medium">personalise across categories</span> — bookmarks, pens,
+                paperweights, gifting sets, packaging.
               </p>
             </div>
 
             {/* Row 3 */}
             <div className="bg-background/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
-              <p className="text-muted-foreground font-sans leading-relaxed">
-                Typical stationery feels mundane.
-              </p>
+              <p className="text-muted-foreground font-sans leading-relaxed">Typical stationery feels mundane.</p>
             </div>
             <div className="bg-background p-6 md:p-8 border-l-2 border-gold">
               <p className="text-foreground font-sans leading-relaxed">
-                <span className="text-gold font-medium">Signature unboxing</span> with magnetic boxes, wax seals, ribbons, and a branded scent that elevates every item.
+                <span className="text-gold font-medium">Signature unboxing</span> with magnetic boxes, wax seals,
+                ribbons, and a branded scent that elevates every item.
               </p>
             </div>
 
             {/* Row 4 */}
             <div className="bg-cream-dark/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
-              <p className="text-muted-foreground font-sans leading-relaxed">
-                Standard gift-wrapping.
-              </p>
+              <p className="text-muted-foreground font-sans leading-relaxed">Standard gift-wrapping.</p>
             </div>
             <div className="bg-background/80 p-6 md:p-8 border-l-2 border-gold">
               <p className="text-foreground font-sans leading-relaxed">
-                <span className="text-gold font-medium">End-to-end luxury gifting:</span> curated bundles, cards, ribbons, seasonal recommendations.
+                <span className="text-gold font-medium">End-to-end luxury gifting:</span> curated bundles, cards,
+                ribbons, seasonal recommendations.
               </p>
             </div>
 
             {/* Row 5 */}
             <div className="bg-background/50 p-6 md:p-8 border-l-2 border-muted-foreground/20">
-              <p className="text-muted-foreground font-sans leading-relaxed">
-                Basic designs.
-              </p>
+              <p className="text-muted-foreground font-sans leading-relaxed">Basic designs.</p>
             </div>
             <div className="bg-background p-6 md:p-8 border-l-2 border-gold">
               <p className="text-foreground font-sans leading-relaxed">
-                <span className="text-gold font-medium">Minimalist, premium, city-inspired styling</span> for fashion followers and gadget-lovers.
+                <span className="text-gold font-medium">Minimalist, premium, city-inspired styling</span> for fashion
+                followers and gadget-lovers.
               </p>
             </div>
           </div>
@@ -346,7 +356,8 @@ const PitchDeckSlides = () => {
               <div>
                 <p className="text-gold uppercase tracking-[0.2em] text-xs font-sans mb-3">Logo Concept</p>
                 <p className="text-muted-foreground font-sans leading-relaxed">
-                  Monogram-in-oval luxury emblem paired with an elegant serif wordmark. Gold foil application for premium presence.
+                  Monogram-in-oval luxury emblem paired with an elegant serif wordmark. Gold foil application for
+                  premium presence.
                 </p>
               </div>
 
@@ -360,7 +371,7 @@ const PitchDeckSlides = () => {
 
             <div className="space-y-8">
               <p className="text-gold uppercase tracking-[0.2em] text-xs font-sans">Campaign Materials</p>
-              
+
               <div className="space-y-6">
                 <div className="bg-background border border-gold/30 p-6">
                   <div className="flex items-center gap-3 mb-3">
@@ -396,9 +407,7 @@ const PitchDeckSlides = () => {
         <div className="max-w-6xl mx-auto w-full">
           <div className="mb-16">
             <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4 font-sans">Slide 06</p>
-            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
-              Go-To-Market Strategy
-            </h2>
+            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">Go-To-Market Strategy</h2>
             <p className="text-muted-foreground font-sans text-lg md:text-xl max-w-2xl">
               Launch, Awareness, Conversion, and Growth Engine
             </p>
@@ -434,9 +443,7 @@ const PitchDeckSlides = () => {
                 <TrendingUp className="w-5 h-5 text-gold" />
               </div>
               <h3 className="font-serif text-xl text-foreground mb-3">Digital Funnel</h3>
-              <p className="text-muted-foreground font-sans text-sm">
-                Hero → Product Pages → Checkout → Upsell flow
-              </p>
+              <p className="text-muted-foreground font-sans text-sm">Hero → Product Pages → Checkout → Upsell flow</p>
             </div>
 
             <div className="bg-cream-dark p-8">
@@ -444,9 +451,7 @@ const PitchDeckSlides = () => {
                 <Building2 className="w-5 h-5 text-gold" />
               </div>
               <h3 className="font-serif text-xl text-foreground mb-3">Corporate Gifting</h3>
-              <p className="text-muted-foreground font-sans text-sm">
-                LinkedIn outreach + B2B catalogue program
-              </p>
+              <p className="text-muted-foreground font-sans text-sm">LinkedIn outreach + B2B catalogue program</p>
             </div>
           </div>
 
